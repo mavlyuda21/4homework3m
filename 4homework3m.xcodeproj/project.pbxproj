@@ -9,21 +9,27 @@
 /* Begin PBXBuildFile section */
 		60672A9529C47107007BBC0F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60672A9429C47107007BBC0F /* AppDelegate.swift */; };
 		60672A9729C47107007BBC0F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60672A9629C47107007BBC0F /* SceneDelegate.swift */; };
-		60672A9929C47107007BBC0F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60672A9829C47107007BBC0F /* ViewController.swift */; };
 		60672A9C29C47107007BBC0F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 60672A9A29C47107007BBC0F /* Main.storyboard */; };
 		60672A9E29C47108007BBC0F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 60672A9D29C47108007BBC0F /* Assets.xcassets */; };
 		60672AA129C47108007BBC0F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 60672A9F29C47108007BBC0F /* LaunchScreen.storyboard */; };
+		60672AA929C471AA007BBC0F /* MainTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60672AA829C471AA007BBC0F /* MainTableViewController.swift */; };
+		60672AAB29C471D5007BBC0F /* CustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60672AAA29C471D5007BBC0F /* CustomCell.swift */; };
+		60672AAD29C472A3007BBC0F /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60672AAC29C472A3007BBC0F /* Data.swift */; };
+		9A4DBA1E29C4C50400081188 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A4DBA1D29C4C50400081188 /* DetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		60672A9129C47107007BBC0F /* 4homework3m.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 4homework3m.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		60672A9429C47107007BBC0F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		60672A9629C47107007BBC0F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		60672A9829C47107007BBC0F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		60672A9B29C47107007BBC0F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		60672A9D29C47108007BBC0F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		60672AA029C47108007BBC0F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		60672AA229C47108007BBC0F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		60672AA829C471AA007BBC0F /* MainTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTableViewController.swift; sourceTree = "<group>"; };
+		60672AAA29C471D5007BBC0F /* CustomCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCell.swift; sourceTree = "<group>"; };
+		60672AAC29C472A3007BBC0F /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
+		9A4DBA1D29C4C50400081188 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,11 +64,14 @@
 			children = (
 				60672A9429C47107007BBC0F /* AppDelegate.swift */,
 				60672A9629C47107007BBC0F /* SceneDelegate.swift */,
-				60672A9829C47107007BBC0F /* ViewController.swift */,
 				60672A9A29C47107007BBC0F /* Main.storyboard */,
 				60672A9D29C47108007BBC0F /* Assets.xcassets */,
 				60672A9F29C47108007BBC0F /* LaunchScreen.storyboard */,
 				60672AA229C47108007BBC0F /* Info.plist */,
+				60672AA829C471AA007BBC0F /* MainTableViewController.swift */,
+				60672AAA29C471D5007BBC0F /* CustomCell.swift */,
+				60672AAC29C472A3007BBC0F /* Data.swift */,
+				9A4DBA1D29C4C50400081188 /* DetailViewController.swift */,
 			);
 			path = 4homework3m;
 			sourceTree = "<group>";
@@ -138,8 +147,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				60672A9929C47107007BBC0F /* ViewController.swift in Sources */,
 				60672A9529C47107007BBC0F /* AppDelegate.swift in Sources */,
+				60672AAD29C472A3007BBC0F /* Data.swift in Sources */,
+				60672AA929C471AA007BBC0F /* MainTableViewController.swift in Sources */,
+				9A4DBA1E29C4C50400081188 /* DetailViewController.swift in Sources */,
+				60672AAB29C471D5007BBC0F /* CustomCell.swift in Sources */,
 				60672A9729C47107007BBC0F /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -287,6 +299,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = S24JM78SDV;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = 4homework3m/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -299,7 +312,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "portfolio.io.-homework3m";
+				PRODUCT_BUNDLE_IDENTIFIER = mavlyuda.homework3m;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -314,6 +327,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = S24JM78SDV;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = 4homework3m/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -326,7 +340,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "portfolio.io.-homework3m";
+				PRODUCT_BUNDLE_IDENTIFIER = mavlyuda.homework3m;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;

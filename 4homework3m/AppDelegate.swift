@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  4homework3m
 //
-//  Created by Ruslan Sharshenov on 17/3/23.
+//  Created by mavluda on 17/3/23.
 //
 
 import UIKit

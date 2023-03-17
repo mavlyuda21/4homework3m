@@ -1,0 +1,21 @@
+{
+  "images" : [
+    {
+      "filename" : "Graham_Study_Table_Classic_Walnut_LP.jpg",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
